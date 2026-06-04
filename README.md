@@ -8,13 +8,13 @@ The resort consists of multiple islands, each with a luxury rating and a maximum
 
 ## How to Run
 
-### Option 1 — VS Code
+### Option 1: VS Code
 1. Install the **Extension Pack for Java** (by Microsoft) from the VS Code extensions tab
 2. Open this folder in VS Code: **File > Open Folder**
 3. Open `ResortUI.java` and click the **Run** button above the `main` method for the interactive menu
 4. Or open `DemoH.java` and click **Run** for a demo output
 
-### Option 2 — Command Line
+### Option 2: Command Line
 Make sure you have the [JDK](https://adoptium.net) installed, then:
 
 ```bash
@@ -29,14 +29,14 @@ java ResortUI
 | Class | Description |
 |---|---|
 | `FIRE` | Interface defining the core resort operations |
-| `Resort` | Main class implementing `FIRE` — manages islands, ferries, and passes |
+| `Resort` | Main class implementing `FIRE` - manages islands, ferries, and passes |
 | `Island` | Represents an island with a name, luxury rating, and capacity |
 | `Ferry` | Handles one-way journeys between two islands |
 | `Pass` | Base class for a pass holder (ID, name, credits, luxury rating, points) |
-| `VisitorPass` | Subclass of `Pass` — includes country of origin |
-| `BusinessPass` | Subclass of `Pass` — for business travellers |
-| `EmployeePass` | Subclass of `Pass` — for resort staff with a staff ID and role |
-| `Bronze` | Subclass of `Pass` — budget pass with a discount rate |
+| `VisitorPass` | Subclass of `Pass` - includes country of origin |
+| `BusinessPass` | Subclass of `Pass` - for business travellers |
+| `EmployeePass` | Subclass of `Pass` - for resort staff with a staff ID and role |
+| `Bronze` | Subclass of `Pass` - budget pass with a discount rate |
 | `ResortUI` | Text-based user interface for interacting with the resort |
 | `DemoH` | Demo class with pre-written scenarios |
 | `DemoHPassTest` | JUnit test class |
@@ -46,7 +46,7 @@ java ResortUI
 - A ferry journey costs **3 credits** and earns **1 journey point**
 - A pass can only travel if its luxury rating is **>=** the destination island's rating
 - **5 journey points** can be converted into **1 credit**
-- Islands have a maximum capacity — travel is blocked if the destination is full
+- Islands have a maximum capacity and travel is blocked if the destination is full
 
 ## Islands
 
@@ -61,4 +61,4 @@ java ResortUI
 
 ## Author
 
-Oyenike Alade — 7COM1015 Coursework 1, November 2025
+Oyenike Alade - 7COM1015 Coursework 1, November 2025
