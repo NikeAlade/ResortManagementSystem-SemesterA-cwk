@@ -4,7 +4,7 @@ A Java simulation of an island resort management system, built as coursework for
 
 ## Overview
 
-The resort consists of multiple islands, each with a luxury rating and a maximum capacity. Pass holders start on the base island and can travel to other islands by ferry — provided they meet the destination's luxury rating requirement and have enough credits.
+The resort consists of multiple islands, each with a luxury rating and a maximum capacity. Pass holders start on the base island and can travel to other islands by ferry, provided they meet the destination's luxury rating requirement and have enough credits.
 
 ## How to Run
 
