@@ -3,7 +3,6 @@
 
 # BlueJ files
 *.ctxt
+*.pkg
 bluej.pkh
-
-# Package file (optional — remove if you want to include it)
-# package.bluej
+package.bluej
