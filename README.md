@@ -8,23 +8,30 @@ The resort consists of multiple islands, each with a luxury rating and a maximum
 
 ## How to Run
 
-### Option 1 — VS Code
+### Option 1 - VS Code
 1. Install the **Extension Pack for Java** (by Microsoft) from the VS Code extensions tab
 2. Open this folder in VS Code: **File > Open Folder**
-3. Open `ResortUI.java` and click the **Run** button above the `main` method for the interactive menu
-4. Or open `DemoH.java` and click **Run** for a demo output
+3. Open `src/ResortUI.java` and click the **Run** button above the `main` method for the interactive menu
+4. Or open `src/DemoH.java` and click **Run** for a demo output
 
-### Option 2 — Command Line
+### Option 2 - Command Line
 Make sure you have the [JDK](https://adoptium.net) installed, then:
 
 ```bash
-javac *.java
-java ResortUI
+javac src/*.java
+java -cp src ResortUI
 ```
 
-> Run `java DemoH` instead for a pre-scripted demo without the interactive menu.
+Run `java -cp src DemoH` instead for a pre-scripted demo without the interactive menu.
 
-## Project Structure
+## Folder Structure
+
+```
+src/        all Java source files
+README.md
+```
+
+## Classes
 
 | Class | Description |
 |---|---|
