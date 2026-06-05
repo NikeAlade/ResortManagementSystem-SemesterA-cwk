@@ -6,24 +6,6 @@ A Java simulation of an island resort management system, built as coursework for
 
 The resort consists of multiple islands, each with a luxury rating and a maximum capacity. Pass holders start on the base island and can travel to other islands by ferry, provided they meet the destination's luxury rating requirement and have enough credits.
 
-## How to Run
-
-### Option 1: VS Code
-1. Install the **Extension Pack for Java** (by Microsoft) from the VS Code extensions tab
-2. Open this folder in VS Code: **File > Open Folder**
-3. Open `ResortUI.java` and click the **Run** button above the `main` method for the interactive menu
-4. Or open `DemoH.java` and click **Run** for a demo output
-
-### Option 2: Command Line
-Make sure you have the [JDK](https://adoptium.net) installed, then:
-
-```bash
-javac *.java
-java ResortUI
-```
-
-> Run `java DemoH` instead for a pre-scripted demo without the interactive menu.
-
 ## Project Structure
 
 | Class | Description |
